@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country App</title>
+    <style>
+      * {
+        font-family: "comic sans ms";
+        background-color: cornsilk;
+      }
+      div#container {
+        text-align: center;
+      }
+      input {
+        width: 150px;
+        height: 40px;
+        font-weight: bold;
+        font-size: medium;
+        border-radius: 5px;
+      }
+      select {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>The Country Details App</h1>
+      <input
+        type="button"
+        value="Load Countries"
+        onclick="loadCountries()"
+      /><br /><br />
+      <select></select
+      ><br /><br />
+      <div id="innercontainer"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
